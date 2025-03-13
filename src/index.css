@@ -3,9 +3,41 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/* Font weights Webflow
+h1 homepage: 88px;
+h2 homepage: 32px;
+h3 homepage: 24px;
+
+body: 20px;
+small-txt: 12px;
+
+CTA heading: 40px;
+
+--- Over mij
+h1 - alt: 62px;
+
+--- Trainingen
+h1: 48px;
+h2: 36px;
+*/
+
 :root{
   --font-primary: Lato, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --font-heading: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --font-weight-black: 900;
+  --font-weight-medium: 520;
+  --font-weight-regular: 400;
+
+  /* Colors */
+  --color-black: #040404;
+  --color-white: #FFFFFF;
+  --color-bg-dark: #272223;
+  --color-bg-light: #f6f2ec;
+  --color-grey:#e2dccf;
+  --color-dark-grey: #434343;
+  --color-highlight: #EDB365;
+  --color-dark-highlight: #B1721E;
 
 }
 
@@ -24,4 +56,42 @@ html, body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  text-wrap: balance;
+}
+
+p, li, span, div, a {
+  font-family: var(--font-primary);
+  /* font-weight: var(--font-weight-regular); */
+  text-wrap: pretty;
+  
+}
+
+li{
+  list-style: none;
+  display: block;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.5rem 2.5rem;
+}
+
+.img-wrapper img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border:none;
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
 }
