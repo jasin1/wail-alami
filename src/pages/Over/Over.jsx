@@ -3,7 +3,9 @@ import "./Over.css";
 function Over(){
 
   return(
-    <main></main>
+    <main>
+      <h1>Over mij</h1>
+    </main>
   );
 
 }
