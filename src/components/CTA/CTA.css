@@ -1,0 +1,29 @@
+.CTA-wrapper{
+  background: var(--color-bg-yellow);
+  color: var(--color-black);
+  padding: 3rem 0;
+  
+}
+
+.CTA-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+
+}
+
+.quote-wrappe{
+  flex: 1;
+}
+
+
+.cta-content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  max-width: 30rem;
+
+}

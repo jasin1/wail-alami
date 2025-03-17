@@ -34,10 +34,16 @@ h2: 36px;
   --color-white: #FFFFFF;
   --color-bg-dark: #272223;
   --color-bg-light: #f6f2ec;
+  --color-bg-yellow: #edb365;
   --color-grey:#e2dccf;
   --color-dark-grey: #434343;
+  --color-text-grey: #a09e9e;
   --color-highlight: #EDB365;
   --color-dark-highlight: #B1721E;
+
+  /* Base font size */
+  --font-size-quote: clamp(2rem, 4vw + 1rem, 2.25rem);
+  
 
 }
 
@@ -56,6 +62,7 @@ html, body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  font-size: 19px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -79,7 +86,7 @@ li{
 
 .wrapper{
   width: 100%;
-  max-width: 1440px;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 1.5rem 2.5rem;
 }
@@ -94,4 +101,25 @@ li{
   padding: 0;
   margin: 0;
   box-shadow: none;
+}
+
+q{
+  font-size: var(--font-size-quote);
+  font-weight: bold;
+  font-family: var(--font-heading);
+  quotes: none;
+}
+
+.normal-button{
+  padding: 0.75rem 1.5rem;
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-grey);
+  color:var(--color-black);
+  text-decoration: none;
+  flex-grow: 0;  /* Voorkom dat de button uitrekt */
+  flex-shrink: 0; /* Voorkom dat de button kleiner wordt dan de inhoud */
+  width: auto; 
+  margin: 0;
 }

@@ -1,0 +1,16 @@
+.footer-wrapper{
+  background-color: var(--color-bg-dark);
+  padding: 3rem 0;
+}
+
+.footer-container{
+  color: var(--color-text-grey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-socials{
+  display: flex;
+  gap: .5rem;
+}

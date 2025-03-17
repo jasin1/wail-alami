@@ -3,10 +3,30 @@
   color: var(--color-white);
 }
 
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo-wrapper{
   display: flex;
   align-items: center;
   gap: 1rem;
   text-decoration: none;
   color: var(--color-black);
+}
+
+
+.nav-links{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link{
+  text-decoration: none;
+  color:var(--color-white);
 }
