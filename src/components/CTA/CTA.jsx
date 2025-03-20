@@ -7,7 +7,7 @@ function CTA() {
       <div class="wrapper">
         <div class="CTA-container">
           <div class="quote-wrapper">
-            <q className="">Samen groeien begint bij<br/> contact maken.</q>
+            <q className="">Samen groeien begint bij contact maken.</q>
           </div>
           <div class="cta-content">
             <p>

@@ -22,11 +22,13 @@
   position: relative;
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 1.5rem;
   transition: all 0.3s ease;
 }
 
 .nav-link{
   text-decoration: none;
   color:var(--color-white);
+  font-size: var(--font-size-small);
+  font-family: var(--font-heading);
 }

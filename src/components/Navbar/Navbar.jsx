@@ -18,7 +18,7 @@ function Navbar() {
                 <NavLink
                 to="/Over"
                 className="nav-link"
-                >Over mij</NavLink>
+                >Over Mij</NavLink>
               </li>
               <li>
                 <NavLink

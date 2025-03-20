@@ -1,0 +1,26 @@
+.home-banner{
+  color:var(--color-white);
+  background-color: var(--color-bg-dark);
+  display: flex;
+}
+
+.home-img{
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+
+.hero-wail-img{
+  max-width: 690px;
+}
+
+.heading-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 12rem;
+
+}
+
+.h1-display{
+  font-size: var(--font-size-display);
+}
+

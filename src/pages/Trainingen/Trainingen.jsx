@@ -1,5 +1,6 @@
 import "./Trainingen.css";
 import Navbar from "../../components/navbar/navbar";
+import CTA from "../../components/CTA/CTA.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 
 function Trainingen(){
@@ -8,6 +9,7 @@ function Trainingen(){
     <main>
       <Navbar/>
       <h1>Trainingen</h1>
+      <CTA/>
       <Footer/>
     </main>
   );

@@ -14,3 +14,7 @@
   display: flex;
   gap: .5rem;
 }
+
+.footer-year p{
+  font-size: 14px;
+}
